@@ -1,4 +1,3 @@
-//Create variables here
 var dog,happyDog,database,foodS,foodStock;
 var sadDog,garden,bedroom,washroom;
 var fedTime,lastFed;
@@ -7,12 +6,10 @@ var gameState,readState;
 function preload()
 {
   //load images here
-  doggyHappy = loadImage("images/happydog.png")
-  doggy = loadImage("images/Dog.png");
+  doggyHappy = loadImage("happy dog.png")
+  doggy = loadImage("Dog.png");
  
-  garden= loadImage("images/Garden.png");
-  bedroom= loadImage("images/Bed Room.png");
-  washroom = loadImage("images/Wash Room.png");
+  
 }
 
 function setup() {
@@ -132,4 +129,3 @@ function update(state){
 function showError(){
   console.log("ERROR");
 }
-
